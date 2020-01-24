@@ -45,7 +45,7 @@ namespace Notes_Android
         public async Task<Note> CreateNote(string content, List<ENoteTags> tags)
         {
             List<int> newTags = tags.ConvertAll(e => (int)e);
-            var note = new Note() { time = DateTime.Now, content = content, tags = newTags};
+            var note = new Note() { time = DateTime.Now.ToLocalTime(), content = content, tags = newTags};
             var jsonContent = JsonConvert.SerializeObject(note);
             log.Log($"[Note] creating '{content}'...");
             var resp =  await client.PostAsync(URL, new StringContent(jsonContent, Encoding.UTF8, "application/json"));
@@ -139,7 +139,7 @@ namespace Notes_Android
                 return;
             }
 
-            lastBreakNote.duration = DateTime.Now.ToUniversalTime() - lastBreakNote.time;
+            lastBreakNote.duration = DateTime.Now - lastBreakNote.time;
             var newNote = await conn.UpdateNote("break end", lastBreakNote);
             Log("Pressed stop break");
             lastBreakNote = null;
