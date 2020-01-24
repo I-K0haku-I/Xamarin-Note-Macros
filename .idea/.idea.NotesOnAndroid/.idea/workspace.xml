@@ -7,6 +7,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a6e9017c-7731-47fd-9cc8-3d50c3205f63" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.NotesOnAndroid/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.NotesOnAndroid/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/NotesOnAndroid/MainActivity.cs" beforeDir="false" afterPath="$PROJECT_DIR$/NotesOnAndroid/MainActivity.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -89,7 +90,7 @@
       <updated>1579605086738</updated>
       <workItem from="1579605088492" duration="209000" />
       <workItem from="1579605342475" duration="3899000" />
-      <workItem from="1579858612538" duration="9963000" />
+      <workItem from="1579858612538" duration="10751000" />
     </task>
     <servers />
   </component>
@@ -98,6 +99,17 @@
   </component>
   <component name="UnityProjectConfiguration" hasMinimizedUI="false" />
   <component name="UnityUnitTestConfiguration" currentTestLauncher="NUnit" />
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="WindowStateProjectService">
     <state x="414" y="176" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1579605128235">
       <screen x="0" y="0" width="1920" height="1040" />

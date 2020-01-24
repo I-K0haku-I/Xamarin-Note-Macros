@@ -46,7 +46,8 @@ namespace Notes_Android
         {
             List<int> newTags = tags.ConvertAll(e => (int)e);
             var note = new Note() { time = DateTime.Now.ToLocalTime(), content = content, tags = newTags};
-            var jsonContent = JsonConvert.SerializeObject(note);
+            var jsonContent = JsonConvert.SerializeObject(note, new JsonSerializerSettings {DateFormatString = "yyyy-MM-ddTHH:mm:ssZ"});
+            log.Log(jsonContent);
             log.Log($"[Note] creating '{content}'...");
             var resp =  await client.PostAsync(URL, new StringContent(jsonContent, Encoding.UTF8, "application/json"));
             var resContent = resp.Content.ReadAsStringAsync().Result;
@@ -65,7 +66,7 @@ namespace Notes_Android
 
         public async Task<Note> UpdateNote(string content, Note lastBreakNote)
         {
-            var jsonContent = JsonConvert.SerializeObject(lastBreakNote);
+            var jsonContent = JsonConvert.SerializeObject(lastBreakNote, new JsonSerializerSettings {DateFormatString = "yyyy-MM-ddTHH:mm:ssZ"});
             log.Log($"[Note] patching '{content}'...");
             var resp = await client.PatchAsync(URL + lastBreakNote.id + "/", new StringContent(jsonContent, Encoding.UTF8, "application/json"));
             var resContent = resp.Content.ReadAsStringAsync().Result;
