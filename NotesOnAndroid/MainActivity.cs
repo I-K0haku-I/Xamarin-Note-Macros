@@ -47,7 +47,6 @@ namespace Notes_Android
             List<int> newTags = tags.ConvertAll(e => (int)e);
             var note = new Note() { time = DateTime.Now.ToLocalTime(), content = content, tags = newTags};
             var jsonContent = JsonConvert.SerializeObject(note, new JsonSerializerSettings {DateFormatString = "yyyy-MM-ddTHH:mm:ssZ"});
-            log.Log(jsonContent);
             log.Log($"[Note] creating '{content}'...");
             var resp =  await client.PostAsync(URL, new StringContent(jsonContent, Encoding.UTF8, "application/json"));
             var resContent = resp.Content.ReadAsStringAsync().Result;
