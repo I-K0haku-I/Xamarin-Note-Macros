@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AndroidLayouts">
+    <shared>
+      <config />
+    </shared>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="a6e9017c-7731-47fd-9cc8-3d50c3205f63" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/6DE48997-D0C0-445D-BEA8-D4D83492D8C6/BA/TimeSpan.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/NotesOnAndroid/obj/Debug/81/designtime/Resource.designer.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/NotesOnAndroid/MainActivity.cs" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/NotesOnAndroid/Properties/AndroidManifest.xml" />
+        <option value="$PROJECT_DIR$/NotesOnAndroid/Resources/layout/activity_main.axml" />
+        <option value="$PROJECT_DIR$/NotesOnAndroid/MainActivity.cs" />
+        <option value="$PROJECT_DIR$/NotesOnAndroid/.gitignore" />
+      </list>
+    </option>
+  </component>
+  <component name="InvalidFacetManager">
+    <ignored-facets>
+      <facet id="NotesOnAndroid/invalid/Android Facet - NotesOnAndroid" />
+    </ignored-facets>
+  </component>
+  <component name="ProjectId" id="1Whc5ngagTETZX5Qwt4deT4zjgs" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="android.sdk.path" value="$USER_HOME$/AppData/Local/Android/Sdk" />
+    <property name="settings.editor.selected.configurable" value="AndroidSettingsPageId" />
+  </component>
+  <component name="RunManager">
+    <configuration name="Android Default" type="XamarinAndroidProject" factoryName="Xamarin.Android">
+      <option name="PROJECT_PATH" value="$PROJECT_DIR$/NotesOnAndroid/NotesOnAndroid.csproj" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="TARGET_SELECTION_MODE" value="EMULATOR" />
+      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
+      <option name="PREFERRED_AVD" value="Pixel_2_API_27" />
+      <option name="DEPLOY_BEHAVIOUR_NAME" value="Default" />
+      <method v="2">
+        <option name="Build" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="a6e9017c-7731-47fd-9cc8-3d50c3205f63" name="Default Changelist" comment="" />
+      <created>1579605086738</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1579605086738</updated>
+      <workItem from="1579605088492" duration="209000" />
+      <workItem from="1579605342475" duration="3899000" />
+      <workItem from="1579858612538" duration="9367000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="UnityProjectConfiguration" hasMinimizedUI="false" />
+  <component name="UnityUnitTestConfiguration" currentTestLauncher="NUnit" />
+  <component name="WindowStateProjectService">
+    <state x="414" y="176" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1579605128235">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="414" y="176" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1579605128235" />
+    <state width="1876" height="132" key="GridCell.Tab.0.bottom" timestamp="1579606187532">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1876" height="132" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1579606187532" />
+    <state width="1876" height="132" key="GridCell.Tab.0.center" timestamp="1579606187531">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1876" height="132" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1579606187531" />
+    <state width="1876" height="132" key="GridCell.Tab.0.left" timestamp="1579606187531">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1876" height="132" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1579606187531" />
+    <state width="1876" height="132" key="GridCell.Tab.0.right" timestamp="1579606187532">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1876" height="132" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1579606187532" />
+    <state x="618" y="210" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1579870652315">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="618" y="210" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1579870652315" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1579608255849">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1579608255849" />
+  </component>
+</project>
